@@ -1,0 +1,42 @@
+--- TERMEN ---
+dir = current directory
+pwd = current directory chain
+cd = naar een directory navigeren
+
+--- COMMANDS ---
+git init = repository maken
+git status = 
+git add . = huidige mappen klaarzetten voor comit
+git log = overzicht van commits
+git commit = een commit maken
+	git commit -m "naam commit"
+git push = delen online
+	- eerste push = 
+git checkout -b
+
+
+--- VIM MODE ---
+VIM = is word mode in de command
+2 modes: command mode (escape) en insert mode (insert)
+- command mode is geen nieuwe regels, maar onderin commands
+- insert mode is regels typen
+Uit VIM komen = command mode > "wq
+
+--- GITHUB INLOG
+git config --global user.email "robvangurp91@gmail.com"
+git config --global user.name "Darkmystry"
+git push -u origin master
+
+--- VOLGORDE BASIS
+1. navigeren naar de map
+	- pwd, cd
+2. git init
+3. git add .
+4. git commit -m "naam commit"
+5. op Github een nieuwe repository aanmaken
+6. 
+5. git push -u origin master
+
+--- EERSTE CLOON COLLABORATOR ---
+git clone
+git checkout -b "feature naam"
